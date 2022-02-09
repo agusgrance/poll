@@ -1,0 +1,9 @@
+.quiz_header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.822);
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+.quiz_header img {
+  width: 40vh;
+}

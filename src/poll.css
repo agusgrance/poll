@@ -1,0 +1,20 @@
+.poll {
+  background-color: antiquewhite;
+  width: 50%;
+  margin: 0 auto;
+  padding: 12px;
+}
+.poll_form {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+.poll_section {
+  margin: 0 auto;
+}
+.poll > input {
+  width: 100%;
+}
+.poll_button {
+  width: 100%;
+}
