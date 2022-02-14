@@ -2,12 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function AnswerOption(props) {
+  // console.log(props.answerType);
+  // console.log(props.answerContent);
+
   return (
     <li className="answerOption">
       <input
         type="radio"
         className="radioCustomButton"
-        name="radioGroup"
+        name={props.answerContent}
         checked={props.answerType === props.answer}
         id={props.answerType}
         value={props.answerType}

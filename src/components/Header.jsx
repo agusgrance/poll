@@ -5,7 +5,9 @@ import "../header.css";
 function Header() {
   return (
     <div className="quiz_header">
-      <img src={logo} />
+      <a href="/">
+        <img src={logo} />
+      </a>
     </div>
   );
 }

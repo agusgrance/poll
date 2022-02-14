@@ -1,6 +1,7 @@
 var quizQuestions = [
   {
     question: "Mejor corto animado",
+    id: 0,
     answers: [
       {
         type: "Affairs of the Art",
@@ -26,6 +27,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor cortometraje",
+    id: 1,
     answers: [
       {
         type: "Ala Kachuu – Take and Run",
@@ -51,6 +53,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor sonido​",
+    id: 2,
     answers: [
       {
         type: "Belfast",
@@ -72,6 +75,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor diseño de vestuario",
+    id: 3,
     answers: [
       {
         type: "Cruella",
@@ -97,6 +101,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor guion adaptado",
+    id: 4,
     answers: [
       {
         type: "CODA",
@@ -122,6 +127,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor guion original",
+    id: 5,
     answers: [
       {
         type: "Belfast",
@@ -148,6 +154,7 @@ var quizQuestions = [
 
   {
     question: "Mejor actriz de reparto",
+    id: 6,
     answers: [
       {
         type: "La hija oscura",
@@ -174,6 +181,7 @@ var quizQuestions = [
 
   {
     question: "Mejor actor de reparto",
+    id: 7,
     answers: [
       {
         type: "Belfast",
@@ -184,6 +192,7 @@ var quizQuestions = [
         content: "Troy Kotsur (“CODA”)",
       },
       {
+        id: 1,
         type: "El poder del perro",
         content: "Jesse Plemons (“El poder del perro”)",
       },
@@ -192,6 +201,7 @@ var quizQuestions = [
         content: "J.K. Simmons (“Being the Ricardos”)",
       },
       {
+        id: 2,
         type: "El poder del perro",
         content: "Kodi Smit-McPhee (“El poder del perro”)",
       },
@@ -199,6 +209,7 @@ var quizQuestions = [
   },
   {
     question: "Mejores efectos visuales",
+    id: 8,
     answers: [
       {
         type: "Dune",
@@ -224,6 +235,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor diseño de producción",
+    id: 9,
     answers: [
       {
         type: "Dune",
@@ -249,6 +261,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor maquillaje y peinado",
+    id: 10,
     answers: [
       {
         type: "Dune",
@@ -275,6 +288,7 @@ var quizQuestions = [
   //
   {
     question: "Mejor canción original",
+    id: 11,
     answers: [
       {
         type: "Rey Richard",
@@ -301,6 +315,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor música original",
+    id: 12,
     answers: [
       {
         type: "Dune",
@@ -327,6 +342,7 @@ var quizQuestions = [
 
   {
     question: "Mejor corto documental",
+    id: 13,
     answers: [
       {
         type: "Audible",
@@ -349,6 +365,7 @@ var quizQuestions = [
 
   {
     question: "Mejor documental",
+    id: 14,
     answers: [
       {
         type: "Ascension",
@@ -376,6 +393,7 @@ var quizQuestions = [
   //
   {
     question: "Mejor edición",
+    id: 15,
     answers: [
       {
         type: "Dune",
@@ -402,6 +420,7 @@ var quizQuestions = [
   //
   {
     question: "Mejor dirección de fotografía",
+    id: 16,
     answers: [
       {
         type: "Dune",
@@ -428,6 +447,7 @@ var quizQuestions = [
   //
   {
     question: "Mejor película internacional",
+    id: 17,
     answers: [
       {
         type: "Drive My Car",
@@ -454,6 +474,7 @@ var quizQuestions = [
   //
   {
     question: "Mejor película animada",
+    id: 18,
     answers: [
       {
         type: "Encanto",
@@ -479,6 +500,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor dirección",
+    id: 19,
     answers: [
       {
         type: "Belfast",
@@ -504,6 +526,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor actriz",
+    id: 20,
     answers: [
       {
         type: "The Eyes of Tammy Faye",
@@ -529,6 +552,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor actor",
+    id: 21,
     answers: [
       {
         type: "Being the Ricardos",
@@ -554,6 +578,7 @@ var quizQuestions = [
   },
   {
     question: "Mejor película",
+    id: 22,
     answers: [
       {
         type: "Dune",

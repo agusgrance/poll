@@ -145,3 +145,22 @@ body {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
+@media (max-width: 450px) {
+  .radioCustomLabel {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .radioCustomButton ~ .radioCustomLabel:before {
+    top: 13px;
+  }
+  .questionCount {
+    font-size: 12px;
+  }
+  .question {
+    font-size: 1.3em;
+  }
+  .quiz {
+    width: 90%;
+  }
+}

@@ -1,0 +1,25 @@
+.choices {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.pdf_button {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+.pdf_button button {
+  cursor: pointer;
+  font-size: 1.1em;
+  background-color: rgb(166 151 99);
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+.pdf_button button:hover {
+  opacity: 1;
+}

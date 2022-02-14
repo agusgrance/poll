@@ -1,18 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { TransitionGroup } from "react-transition-group";
 
 function Result(props) {
   return (
-    <TransitionGroup
-      className="container result"
-      component="div"
-      transitionName="fade"
-      transitionEnterTimeout={800}
-      transitionLeaveTimeout={500}
-      transitionAppear
-      transitionAppearTimeout={500}
-    >
+    <div className="container result">
       <div>
         {props.quizResult ? (
           <p>
@@ -26,7 +17,7 @@ function Result(props) {
           </p>
         )}
       </div>
-    </TransitionGroup>
+    </div>
   );
 }
 

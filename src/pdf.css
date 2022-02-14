@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.ballot {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: white;
+}
+
+.categorie {
+  height: 30vh;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 25px;
+  width: 50%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.categorie_title {
+  font-size: 1.7em;
+  padding-bottom: 20px;
+  text-decoration: underline #ddab17;
+}
+.categorie:nth-child(3n) {
+  border-right: 2px solid #a79256;
+}
+.categorie:last-child {
+  height: 100%;
+  padding-bottom: 15px;
+}
+.categorie_item p {
+  font-size: 1.3em;
+  padding: 4px;
+}
+.categorie_selected {
+  margin-right: 40px;
+}
+.categorie_selected:before {
+  content: url(/src/svg/oscar-ico.svg);
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.quiz_header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.822);
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.quiz_header img {
+  width: 20vh;
+}
+@media (max-width: 450px) {
+  .categorie {
+    width: 50%;
+    height: fit-content;
+    padding: 8px;
+    border: none !important;
+  }
+  .categorie_title {
+    font-size: 0.8em;
+    padding-bottom: 6px;
+  }
+
+  .categorie_item p {
+    font-size: 0.6em;
+  }
+  .categorie_selected {
+    margin-right: 20px;
+  }
+  .categorie_selected:before {
+    content: url(/src/svg/oscar-icon-mobile.png);
+    width: 20px;
+    height: 20px;
+  }
+  .pdf_button button {
+    font-size: 0.9em;
+    padding: 15px;
+  }
+}
