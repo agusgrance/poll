@@ -5,8 +5,9 @@ import Result from "./components/Result";
 import Header from "./components/Header";
 import "./app.css";
 import PDF from "./components/PDF";
-import jsPDF from "jspdf";
+import Cafecito from "./components/Cafecito";
 import html2canvas from "html2canvas";
+import Footer from "./components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -176,6 +177,7 @@ class App extends Component {
           counter={this.state.counter}
           totalAnswer={this.state.totalAnswer}
         />
+        <Cafecito />
       </>
     );
   }
@@ -206,6 +208,7 @@ class App extends Component {
         <Result quizResult={this.state.result} />
         <div className="pdf_button">
           <button onClick={this._exportPdf}>Descargar</button>
+
           <button
             className="sharer-button"
             onClick={() => {
@@ -215,7 +218,7 @@ class App extends Component {
             <span className="sharer-button-text">Compartir</span>
           </button>
         </div>
-
+        <Cafecito />
         <div className="pdf_content">
           <PDF totalAnswerContent={this.state.totalAnswerContent} />
         </div>
@@ -227,6 +230,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+
         {this.state.result ? this.renderResult() : this.renderQuiz()}
 
         {/* <ul className="choices">
@@ -239,6 +243,7 @@ class App extends Component {
             return <li className="choice_count">{val}</li>;
           })}
         </ul> */}
+        <Footer />
       </div>
     );
   }
